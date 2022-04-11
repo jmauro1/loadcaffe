@@ -2,7 +2,7 @@ package = "loadcaffe"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/jmauro1/loadcaffe",
+   url = "git+https://github.com/jmauro1/loadcaffe.git",
    tag = "branch"
 }
 
