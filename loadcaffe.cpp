@@ -70,7 +70,7 @@ bool ReadProtoFromBinaryFile(const char* filename, Message* proto) {
     
     ZeroCopyInputStream* raw_input = new FileInputStream(fd);
     CodedInputStream* coded_input = new CodedInputStream(raw_input);
-    coded_input->SetTotalBytesLimit(1073741824, 536870912);
+    coded_input->SetTotalBytesLimit(1073741824);
     
     bool success = proto->ParseFromCodedStream(coded_input);
     
