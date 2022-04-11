@@ -2,7 +2,7 @@ package = "loadcaffe"
 version = "1.0-0"
 
 source = {
-   url = "git://github.com/szagoruyko/loadcaffe",
+   url = "git://github.com/jmauro1/loadcaffe",
    tag = "master"
 }
 
@@ -11,7 +11,7 @@ description = {
    detailed = [[
 Loading Caffe networks without caffe dependency
    ]],
-   homepage = "https://github.com/szagoruyko/loadcaffe",
+   homepage = "https://github.com/jmauro1/loadcaffe",
    license = "BSD"
 }
 
