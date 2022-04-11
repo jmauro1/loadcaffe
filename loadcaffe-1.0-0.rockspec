@@ -3,7 +3,7 @@ version = "1.0-0"
 
 source = {
    url = "git://github.com/jmauro1/loadcaffe",
-   tag = "master"
+   tag = "branch"
 }
 
 description = {
