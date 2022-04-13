@@ -16,7 +16,6 @@ Loading Caffe networks without caffe dependency
 }
 
 dependencies = {
-   "nn"
 }
 
 build = {
